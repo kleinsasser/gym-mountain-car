@@ -8,9 +8,6 @@ from torch.distributions import Categorical
 import torch.optim as optim
 
 env = gym.make('MountainCar-v0')
-print(env)
-print('action space: ', env.action_space)
-print('observation space: ', env.observation_space)
 
 #hyperparameters
 gamma = 0.99
